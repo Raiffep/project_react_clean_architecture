@@ -15,10 +15,10 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/tests/e2e/cypress'
-  ],
+  ],*/
   moduleNameMapper: {
-    '@/tests/(.*)': '<rootDir>/tests/$1',
     '@/(.*)': '<rootDir>/src/$1',
-    '\\.scss$': 'identity-obj-proxy'
-  }*/
+    /*'@/(.*)': '<rootDir>/src/$1',
+    '\\.scss$': 'identity-obj-proxy'*/
+  }
 }
