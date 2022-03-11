@@ -4,7 +4,7 @@ module.exports = {
     '<rootDir>/src/**/*.{ts,tsx}',
     //'!<rootDir>/src/main/**/*',
     //'!<rootDir>/src/**/index.ts',
-    //'!**/*.d.ts'
+    '!**/*.d.ts'
   ],
   coverageDirectory: 'coverage',
   testEnvironment: 'jsdom',
@@ -18,7 +18,7 @@ module.exports = {
   ],*/
   moduleNameMapper: {
     '@/(.*)': '<rootDir>/src/$1',
-    /*'@/(.*)': '<rootDir>/src/$1',
-    '\\.scss$': 'identity-obj-proxy'*/
+    /*'@/(.*)': '<rootDir>/src/$1',*/
+    '\\.scss$': 'identity-obj-proxy'
   }
 }
